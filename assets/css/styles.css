@@ -2,8 +2,16 @@
 /* CSS Document */
 @import	 url("../fonts/ionicons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700imgfamily=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,400imgdisplay=swap');
+@font-face {
+    font-family: 'my_handwritingregular';
+    src: url('myhandwriting-regular-webfont.woff2') format('woff2'),
+         url('myhandwriting-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
-	font-family: 'my_handwritingregular', sans-serif;
+	font-family: 'my_handwritingregular'sans-serif;
 	font-size: 16px;
 	color: #121212;
 }
