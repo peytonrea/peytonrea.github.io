@@ -8,8 +8,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Monsterrat';
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Monsterrat", sans-serif;
 	font-size: 16px;
 	color: #121212;
 }
@@ -18,17 +24,19 @@ h1{
 	font-family: "my_handwritingregular", sans-serif;
 }
 h3{
-	font-family: "Helvetica", sans-serif;
+	font-family: "Monsterrat", sans-serif;
 	font-size: 17px;
 	color: #FFFFFF;
 }
 h4{
-	font-family: "Helvetica", sans-serif;
+	font-family: "Monsterrat", sans-serif;
 	font-size: 18px;
 	color: #FFFFFF;
 }
 a{
 	font-family: "my_handwritingregular", sans-serif;
+	font-size: 20px;
+	color: #F5C2CB
 }
 
 /* Footer css */
@@ -75,14 +83,14 @@ a{
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #ccc;
+  border: 1px solid #aaa;
   margin: 0 8px;
   color: inherit;
   opacity: 0.75;
 }
 
 .footer-basic .social > a:hover {
-  opacity: 0.9;
+  color: #F5C2CB;
 }
 
 .footer-basic .copyright {
@@ -186,12 +194,12 @@ img.p-bottom {
 	border-color: gray;
 }
 .portfolio-button:hover{
-	background-color: darkgray;
-	border-color: darkgray;
+	background-color: #F5C2CB;
+	border-color: #F5C2CB;
 }
 .send-button:hover{
-	background-color: darkgray;
-	border-color: darkgray;
+	background-color: #F5C2CB;
+	border-color: #F5C2CB;
 }
 .send-button{
 	background-color: gray;
