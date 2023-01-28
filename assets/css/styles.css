@@ -11,8 +11,22 @@
 @font-face {
     font-family: 'Monsterrat';
     src: url("../fonts/Montserrat-VariableFont_wght.ttf") format('woff2');
-    font-weight: normal;
+    font-weight:"../fonts/AvenirLTStd-Medium.otf" normal;
     font-style: normal;
+}
+@font-face {
+	 font-family: 'Avenir';
+    src: url("../fonts/AvenirLTStd-Book.otf");
+    font-weight: "../fonts/AvenirLTStd-Book.otf"normal;
+    font-style: normal;
+	
+}
+@font-face {
+	 font-family: 'Avenir oblique';
+    src: url("../fonts/AvenirLTStd-BookOblique.otf");
+    font-weight: "../fonts/AvenirLTStd-BookOblique.otf"italic;
+    font-style: italic;
+	
 }
 body {
 	font-family: "Monsterrat", sans-serif;
@@ -21,7 +35,13 @@ body {
 }
 
 h1{
-	font-family: "Monsterrat", sans-serif;
+	font-family: "Avenir", sans-serif;
+		color: #575757;
+}
+h2{
+	font-family: "Avenir oblique", sans-serif;
+		font-size: 20px;
+		color: #575757;
 }
 h3{
 	font-family: "Monsterrat", sans-serif;
@@ -204,59 +224,4 @@ img.p-bottom {
 .send-button{
 	background-color: gray;
 	border-color: gray;
-}
-#beer-grey {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-#beer-grey:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-#proj2 {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-#proj2:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
-#proj3 {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-#proj3:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-#proj4 {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-#proj4:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-#proj5{
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-#proj5:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
-#proj6 {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-#proj6:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
 }
